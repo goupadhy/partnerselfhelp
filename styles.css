@@ -476,3 +476,23 @@ html {
         opacity: 1;
     }
 }
+
+/* Partner Image Section */
+.partner-image-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.partner-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.partner-image:hover {
+    transform: scale(1.02);
+}
